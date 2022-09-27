@@ -1,0 +1,34 @@
+.box {
+  width: 100%px;
+  height: 200px;
+  background-color: blue;
+  display: block;
+  padding-top: 0.1rem;
+}
+h2 {
+  text-align: center;
+  padding-top: 1.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc(1rem + 1vw);
+  color: white;
+}
+
+
+h6 {
+  color: white;
+  text-align: center;
+  font-size: calc(0.5rem + 0.5vw);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-weight: 400;
+  
+}
+.top{
+    display: flex;
+    font-size: calc(1rem + .2vw);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+    
