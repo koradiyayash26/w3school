@@ -2,6 +2,7 @@ body {
   margin: 0px;
 }
 .logo {
+  width: 45px;
   height: 42px;
   padding: 17px 25px;
   float: left;
@@ -19,6 +20,8 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
+  
 }
 .topright {
   text-decoration: none;
@@ -28,37 +31,37 @@ body {
 }
 .tu {
   border-radius: 25px;
-  padding: 15px 45px 15px 45px;
+  padding: 10px 20px 10px 20px;
   background-color: rgb(4, 170, 109);
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
   border-color: white;
 }
 .re {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
 
   border-radius: 25px;
-  padding: 15px 40px 15px 40px;
+  padding: 10px 20px 10px 20px;
   background-color: #fff4a3 !important;
   color: black;
   border-color: white;
 }
 .ex {
   border-radius: 25px;
-  padding: 15px 25px 15px 25px;
+  padding: 10px 20px 10px 20px;
   background-color: #ffc0c7 !important;
   color: black;
   border-color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
 }
 .vi {
   border-radius: 25px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 15px 25px 15px 25px;
+  padding: 10px 20px 10px 20px;
   background-color: #282a35 !important;
   color: white;
   border-color: white;
@@ -166,10 +169,10 @@ a {
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
   margin: 30px 0;
+  display:block;
+  position:none;
 }
-/* .main{
-    width: 100%;
-  } */
+
 .homeeeeeee {
   background-color: #04aa6d;
   text-decoration: none;
@@ -205,14 +208,14 @@ a {
   height: 180px;
   margin-right: 200px;
 
-  background-color: #D9EEE1;
+  background-color: #d9eee1;
 }
 .font {
   font-family: Verdana, sans-serif;
   padding-left: 15px;
   font-size: 15px;
 }
-.start{
+.start {
   text-decoration: none;
   background-color: #04aa6d;
   border-color: #04aa6d;
@@ -226,9 +229,8 @@ a {
   margin-top: 40px;
 }
 
-#hoverr a:hover{
+#hoverr a:hover {
   background-color: #f1f1f1;
-
 }
 
 /* .what{
@@ -239,34 +241,48 @@ a {
   font-weight: 400;
   margin: 30px 60px;
 } */
-ul{
-  font-family: Verdana,sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
+ul {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
-.whattt{
-  padding-left:300px;
-  margin-top:0 ;
+.whattt {
+  padding-left: 300px;
+  margin-top: 0;
   line-height: 1.5rem;
   font-size: 20px;
   font-weight: 400;
   position: static;
-  font-family: Verdana,sans-serif;
+  font-family: Verdana, sans-serif;
 }
-.whhhh{
-  margin-right: 250px;
+.whhhh {
+  margin-right: 190px;
+ 
 }
-code{
+code {
   color: crimson;
-  background-color: #D9EEE1;
+  background-color: #d9eee1;
 }
-.boxxxx{
+.boxxxx {
   margin-right: 285px;
-  
-
 }
-.default{
+.default {
   font-size: 32px;
-  font-family: "Segoe UI",Arial,sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
+}
+.bol2 {
+  width: 100%;
+  border: none;
+  background-color: #E7E9EB;
+  padding: 0px;
+}
+
+.bol2 td {
+  border: 3px solid white;
+  padding: 8px;
+  text-align: center;
+}
+.bgmi{
+  margin-top: 65px;
 }
